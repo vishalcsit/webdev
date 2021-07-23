@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <input type="checkbox" id="sidebar-toggle">
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h3 class="brand">
+                <span> <img src="TECO logo.jpg" alt="TECO logo" style="width:50px;height:50px;"></span> 
+                <span>TECO</span>
+            </h3> 
+            <label for="sidebar-toggle" class="ti-menu-alt"></label>
+        </div>
+        
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="ti-signal"></span>
+                        <span>Real Time Data</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="ti-time"></span>
+                        <span>Historical Data</span>
+                    </a>
+                </li>
+               
+                <li>
+                    <a href="">
+                        <span class="ti-settings"></span>
+                        <span>Account</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    <div class="main-content">
+        
+        <header>
+            <h1>Monitoring Board</h1>
+        </header>
+        
+        <main>
+            
+            <h2 class="dash-title">Overview</h2>
+            
+            <div class="dash-cards">
+                <div class="card-single">
+                    <div class="card-body">
+                        <span class="ti-rocket"></span>
+                        <div>
+                            <h5>Speed</h5>
+                            <h4>123Kmph</h4>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="card-single">
+                    <div class="card-body">
+                        <span class="ti-ruler-alt"></span>
+                        <div>
+                            <h5>Temperature</h5>
+                            <h4>240&#8451;</h4>
+                        </div>
+                    </div>
+                   
+                </div>
+                
+                <div class="card-single">
+                    <div class="card-body">
+                        <span class="ti-paint-bucket"></span>
+                        <div>
+                            <h5>Oil Pressure</h5>
+                            <h4>100PSI</h4>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            <section class="recent">
+                <div class="activity-grid">
+                    <div class="activity-card">
+                        <h3>GE 7HA turbine</h3>
+                         <img src="hero-7ha-temp.png" alt="GE 7HA Turbine" style="width:700px;height:300px;">
+                        <div class="table-responsive">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Input FLow</th>
+                                        <th>Output Flow</th>
+                                        <th>Vibration</th>
+                                        <th>Combuster Temperature</th>
+                                        <th>Fuel Consumption</th>
+                                        <th>Output Efficiency</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="badge success">80%</span></td>
+                                        <td><span class="badge warning">70%</span></td>
+                                        <td><span class="badge success">80%</span></td>
+                                        <td><span class="badge warning">150&#8451;</span></td>
+                                        <td><span class="badge success">40%</span></td>
+                                        <td><span class="badge warning">90%</span></td>
+                                    </tr>
+                                    
+                                    
+                                   
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    <div class="summary">
+                        <div class="summary-card">
+                            <div class="summary-single">
+                                <span class="ti-power-off"></span>
+                                <div>
+                                    <h5>Run Status</h5>
+                                    <small>Good</small>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        
+                        <div class="bday-card">
+                            <div class="bday-flex">
+                                
+                                <div class="bday-info">
+                                    <h5>To raise alert, press the button</h5>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="text-center">
+                                <button>
+                                    <span class="ti-alert"></span>
+                                    ALERT!
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+        
+    </div>
+    
+</body>
+</html>
